@@ -17,7 +17,7 @@ module TestMailApp
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "localhost:3000",
+      :domain               => "calm-plateau-9097.herokuapp.com",
       :user_name            => "chrispeterson924",
       :password             => ENV["MAIL_PASSWORD"],
       :authentication       => :plain,
@@ -25,7 +25,7 @@ module TestMailApp
     }
 
     config.action_mailer.default_url_options = {
-      :host => "localhost:3000"
+      :host => "calm-plateau-9097.herokuapp.com"
     }
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
